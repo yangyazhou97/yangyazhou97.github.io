@@ -30,13 +30,31 @@
       margin-top: 20px;
       font-size: 2.5rem;
     }
-    p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin: 10px 0 20px;
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #007acc;
+    }
+    section {
+      margin: 60px 0;
+      text-align: left;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      color: #007acc;
     }
     footer {
-      margin-top: 40px;
+      margin-top: 60px;
       font-size: 0.9rem;
       color: #777;
     }
@@ -45,11 +63,36 @@
 <body>
   <div class="container">
     <!-- 换成你的头像地址 -->
-    <img src="https://avatars.githubusercontent.com/u/89854398?s=48&v=4" alt="My Avatar" class="avatar">
+    <img src="https://avatars.githubusercontent.com/u/xxxxx?v=4" alt="My Avatar" class="avatar">
 
     <h1>Yang Yazhou</h1>
-    <p>Welcome to my personal website 🎉<br>
-    Here you can learn about my projects, experiments, and chatbot platform.</p>
+
+    <!-- 导航 -->
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- 页面内容 -->
+    <section id="about">
+      <h2>About</h2>
+      <p>Hello! I'm Yang Yazhou, welcome to my personal site 🎉.  
+      I explore AI, chatbots, and web technologies. This space is for sharing experiments and projects.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>⚡ Embedded Chatbot Platform — allows small businesses to integrate AI-powered chat directly into their websites.  
+      ⚡ Knowledge Base with RAGFlow — dynamic document retrieval and conversation system.  
+      More projects coming soon...</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me via GitHub or email.  
+      GitHub: <a href="https://github.com/yangyazhou97" target="_blank">yangyazhou97</a></p>
+    </section>
 
     <footer>
       © 2025 Yang Yazhou · Built with ❤️ and GitHub Pages
