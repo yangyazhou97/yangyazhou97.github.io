@@ -3,138 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yang Yazhou - Personal Site</title>
+  <title>Yang Yazhou</title>
   <style>
-    :root {
-      --bg: #ffffff;
-      --fg: #111111;
-      --primary: #2563eb;
-      --secondary: #6b7280;
-      --card: #f9fafb;
-    }
-
     body {
-      font-family: 'Inter', sans-serif;
-      background: var(--bg);
-      color: var(--fg);
+      font-family: Arial, sans-serif;
       margin: 0;
-      line-height: 1.6;
-      scroll-behavior: smooth;
-    }
-
-    header {
-      padding: 3rem 1rem 2rem;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
       text-align: center;
-      border-bottom: 1px solid #e5e7eb;
     }
-
-    nav {
-      margin-bottom: 1rem;
+    .container {
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 20px;
     }
-
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: var(--secondary);
-      font-weight: 500;
-      transition: color 0.2s;
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ddd;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
     }
-
-    nav a:hover {
-      color: var(--primary);
-    }
-
-    header h1 {
+    h1 {
+      margin-top: 20px;
       font-size: 2.5rem;
-      margin: 0.5rem 0;
     }
-
-    header p {
-      font-size: 1.2rem;
-      color: var(--secondary);
-      margin: 0;
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 10px 0 20px;
     }
-
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-
-    section {
-      margin: 3rem 0;
-      padding: 2rem;
-      background: var(--card);
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-    }
-
-    h2 {
-      margin-top: 0;
-      color: var(--primary);
-      font-size: 1.5rem;
-    }
-
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
     footer {
-      text-align: center;
-      padding: 2rem 1rem;
+      margin-top: 40px;
       font-size: 0.9rem;
-      color: var(--secondary);
-      border-top: 1px solid #e5e7eb;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <div class="container">
+    <!-- 换成你的头像地址 -->
+    <img src="https://avatars.githubusercontent.com/u/89854398?s=48&v=4" alt="My Avatar" class="avatar">
+
     <h1>Yang Yazhou</h1>
-    <p>AI • RAG • Chatbots</p>
-  </header>
+    <p>Welcome to my personal website 🎉<br>
+    Here you can learn about my projects, experiments, and chatbot platform.</p>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Hi, I’m Yang Yazhou. I explore artificial intelligence, RAG (retrieval-augmented generation), and chatbot applications.  
-        This site is a simple space to share my work and experiments.
-      </p>
-    </section>
+    <footer>
+      © 2025 Yang Yazhou · Built with ❤️ and GitHub Pages
+    </footer>
+  </div>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <p>
-        🔹 <strong>Knowledge Base Chatbot</strong> – A script-based chatbot platform for small businesses to embed on their sites.  
-        🔹 <strong>RAGFlow Experiments</strong> – Exploring backend and frontend integration for knowledge management.  
-      </p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        📧 <a href="mailto:your-email@example.com">your-email@example.com</a><br>
-        💻 <a href="https://github.com/yangyazhou97" target="_blank">GitHub</a>
-      </p>
-    </section>
-  </main>
-
-  <footer>
-    © 2025 Yang Yazhou. All rights reserved.
-  </footer>
-
-  <!-- Chatbot Widget -->
+  <!-- Chatbot 脚本 -->
   <script async src="https://www.yapyapbot.com/widget.js" project-id="1e5203b7-30ba-463b-9ba3-67cf34cc96e5"></script>
 </body>
 </html>
